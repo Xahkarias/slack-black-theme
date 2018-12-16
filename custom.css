@@ -19,7 +19,6 @@ limitations under the License.
    --primary: #09F;
    --text: #DDD;
    /*--background: #111;*/
-   --background-image: url(https://i.pinimg.com/originals/49/03/3b/49033b6247c942f198a7afd7e0977b0f.jpg);
    --background-elevated: #222;
 
    /* These should be less important: */
@@ -42,7 +41,7 @@ h1, h2, h3, h4 {
 }
 
 body {
-    background: var(--background-image);
+    background-image: url(https://i.pinimg.com/originals/49/03/3b/49033b6247c942f198a7afd7e0977b0f.jpg);
     color: var(--text);
 }
 hr {
